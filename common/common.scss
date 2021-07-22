@@ -2770,6 +2770,25 @@ Badges
   box-shadow: none;
 }
 
+.d-header .title a {
+  position: relative;
+  display: block;
+}
+
+@media (prefers-color-scheme: light) {
+  .d-header .title a:after {
+      content: "";
+      position: absolute;
+      background-image: url(https://aws1.discourse-cdn.com/standard10/uploads/foxcookieco/original/1X/b5ec0724d35c2c1cec5a3f24038bbe9adc4b07c1.png);
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background-color: #fff;
+  }
+}
+
 .badge-wrapper.bar .badge-category-parent-bg, .badge-wrapper.bar .badge-category-bg {
     padding: 0 !important;
 }
