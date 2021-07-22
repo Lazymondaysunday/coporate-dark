@@ -797,6 +797,10 @@ h3.search-footer {
   }
 }
 
+.discourse-tags .discourse-tag.simple:not(:last-child):after, .list-tags .discourse-tag.simple:not(:last-child):after, .search-category .discourse-tag.simple:not(:last-child):after {
+  display: none;
+}
+
 /* !!! Topic list !!! */
 
 /* Category page */
