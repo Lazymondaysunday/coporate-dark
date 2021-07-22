@@ -9,7 +9,7 @@
   "maximum_discourse_version": null,
   "color_schemes": {
     "Dark": {
-      "bg": "222222"
+      "site-background": "222222"
     }
   }
 }
